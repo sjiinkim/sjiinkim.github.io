@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://seojinkim.github.io/sitemap.xml
+Sitemap: https://sjiinkim.github.io/sitemap.xml

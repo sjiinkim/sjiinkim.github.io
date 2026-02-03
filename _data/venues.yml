@@ -7,3 +7,26 @@
 
 "Vision":
   color: "#009f36"
+
+"BigData":
+  url: https://bigdataieee.org/
+  color: "#6f42c1"
+
+"KDD":
+  url: https://www.kdd.org/
+  color: "#d63384"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#198754"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#0d6efd"
+
+"ICML Workshop":
+  url: https://es-fomo.com/
+  color: "#fd7e14"
+
+"Under review":
+  color: "#6c757d"

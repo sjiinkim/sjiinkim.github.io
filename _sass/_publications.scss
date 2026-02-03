@@ -43,6 +43,28 @@
         display: inline-block;
       }
 
+      // Per-paper tweak: some preview images are very tall
+      .abbr[data-entry-key="prkv"] {
+        img.preview {
+          max-height: 120px;
+          object-fit: contain;
+        }
+      }
+
+      a.preview-pdf {
+        width: 100%;
+        min-height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        color: var(--global-text-color);
+        border: 1px solid var(--global-divider-color);
+        background-color: var(--global-card-bg-color);
+      }
+
       .abbr {
         margin-bottom: 0.5rem;
 

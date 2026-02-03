@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: Feb, 2026
 inline: true
-related_posts: false
+related_posts: true
 ---
 
-A simple inline announcement.
+One paper has been accepted to [ICLR 2026](https://iclr.cc). Hope to see you in Rio!

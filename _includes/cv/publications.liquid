@@ -2,6 +2,21 @@
   Unified publications entry renderer for both formats
 {% endcomment %}
 
+{%- assign has_equal_contrib = false -%}
+{%- for entry in entries -%}
+  {%- if entry.authors and entry.authors.size > 0 -%}
+    {%- for a in entry.authors -%}
+      {%- if a contains '*' or a contains '∗' -%}
+        {%- assign has_equal_contrib = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{% if has_equal_contrib %}
+  <p class="card-text font-weight-light mb-2"><em>* Equal contribution</em></p>
+{% endif %}
+
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
     <li class="list-group-item">
@@ -39,6 +54,12 @@
               </h6>
             {% endif %}
 
+            {% if entry.authors %}
+              {% assign author_str = entry.authors | join: ', ' %}
+              {% assign author_str = author_str | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
+              <p class="ml-1 ml-md-4 mb-1" style="font-size: 0.95rem">{{ author_str }}</p>
+            {% endif %}
+
             {% if entry.summary %}
               <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             {% endif %}
@@ -57,6 +78,12 @@
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
                 <em>{{ entry.publisher }}</em>
               </h6>
+            {% endif %}
+
+            {% if entry.authors %}
+              {% assign author_str = entry.authors | join: ', ' %}
+              {% assign author_str = author_str | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
+              <p class="ml-1 ml-md-4 mb-1" style="font-size: 0.95rem">{{ author_str }}</p>
             {% endif %}
 
             {% if entry.summary %}

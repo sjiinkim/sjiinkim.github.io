@@ -50,17 +50,17 @@ cv:
 
     Experience:
       - company: BigDyl
-        position: Member
+        position: Graduate Researcher
         location: Daejeon, South Korea
         start_date: 2024-09-01
         # end_date: 2026-02-01
-        summary: Member of BigDyl, a research group at KAIST, advised by Noseong Park.
+        summary: Graduate Researcher at BigDyl, a research group at KAIST, advised by Noseong Park.
         highlights:
           - Efficient Language Modeling (KV cache, State Space Models)
           - Time Series Analysis
           - Recommendation System
 
-      - company: Minds n Company
+      - company: Minds n Company (now GenOn)
         position: Data Scientist Intern
         location: Seoul, South Korea
         start_date: 2023-12-26

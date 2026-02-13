@@ -107,7 +107,7 @@ cv:
           - Jinsung Jeon
           - Jeongwhan Choi
           - Noseong Park
-        publisher: "2023 IEEE International Conference on Big Data (BigData)"
+        publisher: "2023 IEEE International Conference on Big Data (IEEE BigData 2023)"
         releaseDate: 2023-12-01
         url: https://doi.ieeecomputersociety.org/10.1109/BigData59044.2023.10386388
         summary: Proposes LTSF-DNODE, combining time-series decomposition with neural ODEs for long-term forecasting, improving over baselines on real-world datasets.
@@ -117,7 +117,7 @@ cv:
           - Sheo Yon Jhin
           - Seojin Kim
           - Noseong Park
-        publisher: "KDD 2024 (ACM SIGKDD Conference on Knowledge Discovery and Data Mining)"
+        publisher: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024)"
         releaseDate: 2024-01-01
         url: https://doi.org/10.1145/3637528.3671969
         summary: Introduces a continuous-time GRU (neural ODE) with time-derivative regularization to mitigate prediction delay in forecasting.
@@ -148,7 +148,7 @@ cv:
           - Jeongwhan Choi
           - Seojin Kim
           - Noseong Park
-        publisher: "arXiv:2510.25259"
+        publisher: "Conference on Neural Information Processing Systems (NeurIPS 2025)"
         releaseDate: 2025-10-01
         url: https://arxiv.org/abs/2510.25259
         summary: Proposes time-variant convolutional filters for sequential recommendation to better capture temporal interactions while improving efficiency.
@@ -158,8 +158,8 @@ cv:
           - Yehjin Shin*
           - Seojin Kim*
           - Noseong Park
-        publisher: "The Fourteenth International Conference on Learning Representations"
-        releaseDate: 2025-01-01
+        publisher: "The Fourteenth International Conference on Learning Representations (ICLR 2026)"
+        releaseDate: 2026-01-26
         url: https://openreview.net/forum?id=w0XhHcXfKv
         summary: Reinterprets Mamba2 as an adaptive filter bank and proposes a hierarchical framework inspired by graph signal processing.
 

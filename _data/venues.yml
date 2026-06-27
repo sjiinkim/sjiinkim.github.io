@@ -24,6 +24,10 @@
   url: https://iclr.cc/
   color: "#0d6efd"
 
+"ICML":
+  url: https://icml.cc/
+  color: "#0d6efd"
+
 "ICML Workshop":
   url: https://es-fomo.com/
   color: "#fd7e14"

@@ -47,8 +47,18 @@ cv:
         highlights:
           - Honors in 2020 spring semester (awarded to top 10 % of the students)
           - Honors in 2024 spring semester (awarded to top 10 % of the students)
+          - Exchange student (Fall 2022, University of Glasgow, Department of Science and Engineering)
 
     Experience:
+      - company: Microsoft Research Asia
+        position: Research Intern
+        location: Beijing, China
+        start_date: 2026-04
+        # end_date: 2026-02-01
+        summary: Research Intern at MSRA Network Infrastructure Group, advised by Wenxue Cheng.
+        highlights:
+          - Agentic AI for network diagnosis
+
       - company: BigDyl
         position: Graduate Researcher
         location: Daejeon, South Korea
@@ -162,7 +172,16 @@ cv:
         releaseDate: 2026-01-26
         url: https://openreview.net/forum?id=w0XhHcXfKv
         summary: Reinterprets Mamba2 as an adaptive filter bank and proposes a hierarchical framework inspired by graph signal processing.
-
+      
+      - title: "Q-Delta: Beyond Key-Value Associative State Evolution"
+        authors:
+          - Sumin Park
+          - Seojin Kim
+          - Noseong Park
+        publisher: "The 43rd International Conference on Machine Learning (ICLR 2026)"
+        releaseDate: 2026-05-01
+        url: https://arxiv.org/abs/2606.08804
+        summary: A query-aware delta rule that integrates mixed key-query prediction errors into state evolution, enabling jointly corrective dynamics.
     # Skills:
     #   - name: Physics
     #     level: Master
@@ -175,6 +194,9 @@ cv:
 
       - name: English
         summary: "Fluent"
+
+      - name: French, Chinese
+        summary: Beginner
 
     Interests:
       - name: Artificial Intelligence

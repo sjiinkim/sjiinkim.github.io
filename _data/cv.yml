@@ -97,7 +97,6 @@ cv:
           - "Seojin Kim, Soyeon Shin, Yunseo Choi"
         date: 2023
         awarder: Yonsei University
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
         summary: "2nd place: Verification of AlleyWay Consulting and presentation of Growth Plans with LightGBM"
       - title: 2021 Traditional Culture Youth Startup Idea Contest
         authors:
@@ -178,7 +177,7 @@ cv:
           - Sumin Park
           - Seojin Kim
           - Noseong Park
-        publisher: "The 43rd International Conference on Machine Learning (ICLR 2026)"
+        publisher: "The 43rd International Conference on Machine Learning (ICML 2026)"
         releaseDate: 2026-05-01
         url: https://arxiv.org/abs/2606.08804
         summary: A query-aware delta rule that integrates mixed key-query prediction errors into state evolution, enabling jointly corrective dynamics.

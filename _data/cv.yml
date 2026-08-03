@@ -4,7 +4,7 @@ cv:
   email: seojinkim@kaist.ac.kr
   location: Daejeon, South Korea
   image: profile_pic.JPG
-  summary: A M.S student at KAIST AI, advised by Noseong Park.
+  summary: M.S. student at KAIST AI working on efficient language modeling, studying the mechanisms of modern sequence models to build more scalable and practical AI systems.
 
   social_networks:
     # - network: X
@@ -66,7 +66,7 @@ cv:
         # end_date: 2026-02-01
         summary: Graduate Researcher at BigDyl, a research group at KAIST, advised by Noseong Park.
         highlights:
-          - Efficient Language Modeling (KV cache, State Space Models)
+          - Efficient Language Modeling (KV cache, State Space Models, Transformer Mechanisms)
           - Time Series Analysis
           - Recommendation System
 
@@ -91,20 +91,10 @@ cv:
           - "Project: Haulla call data analysis & referral marketing project"
           - "Skills: Data Analytics with Python"
 
-    Awards:
-      - title: 2023 Yonsei Big Data Analysis Contest
-        authors:
-          - "Seojin Kim, Soyeon Shin, Yunseo Choi"
-        date: 2023
-        awarder: Yonsei University
-        summary: "2nd place: Verification of AlleyWay Consulting and presentation of Growth Plans with LightGBM"
-      - title: 2021 Traditional Culture Youth Startup Idea Contest
-        authors:
-          - "Seojin Kim, Jeonghyun Park, Honghee Na, Jaehwan Lee "
-        date: 2021
-        awarder: Korea Craft and Design Foundation
-        summary: "Project: Moon-we: Interactive Matchmaking Platform for Collaboration between Intangible Cultural Properties-Company-Consumer and Crowdfunding Related to Intangible Cultural Properties"
-
+    Interests:
+      - name: Artificial Intelligence
+        icon: fa-solid fa-tag
+        keywords: Efficient Language Modeling (State Space Models, KV Cache, Transformer Mechanisms), Time Series Analysis, Recommendation System
     Publications:
       - title: Long-term Time Series Forecasting based on Decomposition and Neural Ordinary Differential Equations
         authors:
@@ -186,7 +176,20 @@ cv:
     #     level: Master
     #     icon: fa-solid fa-hashtag
     #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
+    Awards:
+      - title: 2023 Yonsei Big Data Analysis Contest
+        authors:
+          - "Seojin Kim, Soyeon Shin, Yunseo Choi"
+        date: 2023
+        awarder: Yonsei University
+        summary: "2nd place: Verification of AlleyWay Consulting and presentation of Growth Plans with LightGBM"
+      - title: 2021 Traditional Culture Youth Startup Idea Contest
+        authors:
+          - "Seojin Kim, Jeonghyun Park, Honghee Na, Jaehwan Lee "
+        date: 2021
+        awarder: Korea Craft and Design Foundation
+        summary: "Project: Moon-we: Interactive Matchmaking Platform for Collaboration between Intangible Cultural Properties-Company-Consumer and Crowdfunding Related to Intangible Cultural Properties"
+    
     Languages:
       - name: Korean
         summary: "Native speaker"
@@ -196,11 +199,6 @@ cv:
 
       - name: French, Chinese
         summary: Beginner
-
-    Interests:
-      - name: Artificial Intelligence
-        icon: fa-solid fa-tag
-        keywords: "Language Modeling, Time Series Analysis, Recommendation System"
 
     # Certificates:
     #   - name: Machine Learning

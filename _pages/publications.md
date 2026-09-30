@@ -15,14 +15,15 @@ nav_order: 1
 
 <p><em>* Equal contribution</em></p>
 
-<h2>Under review</h2>
-<div class="publications">
-  {% bibliography --file under_review --group_by none %}
-</div>
-
 <h2>Publications</h2>
 <div class="publications">
 
 {% bibliography %}
 
 </div>
+
+<h2>Under review</h2>
+<div class="publications">
+  {% bibliography --file under_review --group_by none %}
+</div>
+

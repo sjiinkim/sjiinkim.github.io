@@ -104,15 +104,15 @@ cv:
         releaseDate: 2026-12-06
         # url: https://arxiv.org/abs/2606.08804
         summary: A training-free KV cache eviction method using Personalized PageRank to estimate global token importance for memory-efficient long-context LLM inference.
-      - title: "Q-Delta: Beyond Key-Value Associative State Evolution"
+      - title: "Attention Sinks as Spectral Spikes: A Mechanism Analysis of Gated Attention"
         authors:
-          - Seojin Kim
-          - Yejin Shin
+          - Seojin Kim*
+          - Yejin Shin*
           - Noseong Park
         publisher: "The 40th Conference on Neural Information Processing Systems (NeurIPS 2026)"
         releaseDate: 2026-12-06
         # url: https://arxiv.org/abs/2606.08804
-        summary: A query-aware delta rule that integrates mixed key-query prediction errors into state evolution, enabling jointly corrective dynamics.
+        summary:  Attention sinks are recast as sink-aligned spectral spikes, revealing that post-SDPA gating suppresses them through a unified forward spectral and backward value-path contraction mechanism.
       - title: "Q-Delta: Beyond Key-Value Associative State Evolution"
         authors:
           - Sumin Park

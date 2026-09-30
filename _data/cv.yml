@@ -96,6 +96,78 @@ cv:
         icon: fa-solid fa-tag
         keywords: Efficient Language Modeling (State Space Models, KV Cache, Transformer Mechanisms), Time Series Analysis, Recommendation System
     Publications:
+      - title: "Global Importance Estimation for KV Cache Eviction"
+        authors:
+          - Seojin Kim
+          - Noseong Park
+        publisher: "The 40th Conference on Neural Information Processing Systems (NeurIPS 2026)"
+        releaseDate: 2026-12-06
+        # url: https://arxiv.org/abs/2606.08804
+        summary: A training-free KV cache eviction method using Personalized PageRank to estimate global token importance for memory-efficient long-context LLM inference.
+      - title: "Q-Delta: Beyond Key-Value Associative State Evolution"
+        authors:
+          - Seojin Kim
+          - Yejin Shin
+          - Noseong Park
+        publisher: "The 40th Conference on Neural Information Processing Systems (NeurIPS 2026)"
+        releaseDate: 2026-12-06
+        # url: https://arxiv.org/abs/2606.08804
+        summary: A query-aware delta rule that integrates mixed key-query prediction errors into state evolution, enabling jointly corrective dynamics.
+      - title: "Q-Delta: Beyond Key-Value Associative State Evolution"
+        authors:
+          - Sumin Park
+          - Seojin Kim
+          - Noseong Park
+        publisher: "The 43rd International Conference on Machine Learning (ICML 2026)"
+        releaseDate: 2026-05-01
+        url: https://arxiv.org/abs/2606.08804
+        summary: A query-aware delta rule that integrates mixed key-query prediction errors into state evolution, enabling jointly corrective dynamics.
+      - title: "Graph Signal Processing Meets Mamba2: Adaptive Filter Bank via Delta Modulation"
+        authors:
+          - Yehjin Shin*
+          - Seojin Kim*
+          - Noseong Park
+        publisher: "The Fourteenth International Conference on Learning Representations (ICLR 2026)"
+        releaseDate: 2026-01-26
+        url: https://openreview.net/forum?id=w0XhHcXfKv
+        summary: Reinterprets Mamba2 as an adaptive filter bank and proposes a hierarchical framework inspired by graph signal processing.
+      - title: "TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation"
+        authors:
+          - Yehjin Shin
+          - Jeongwhan Choi
+          - Seojin Kim
+          - Noseong Park
+        publisher: "The 39th Conference on Neural Information Processing Systems (NeurIPS 2025)"
+        releaseDate: 2025-10-01
+        url: https://arxiv.org/abs/2510.25259
+        summary: Proposes time-variant convolutional filters for sequential recommendation to better capture temporal interactions while improving efficiency.
+      - title: Mitigating Over-Smoothing in Mamba2 via Spectral Domain Analysis
+        authors:
+          - Seojin Kim*
+          - Yehjin Shin*  
+          - Noseong Park
+        publisher: "ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models"
+        releaseDate: 2025-01-01
+        url: https://openreview.net/forum?id=r08kqzrito
+        summary: Analyzes Mamba2 in the spectral domain and proposes a high-frequency enhancement method to reduce over-smoothing.
+      - title: "Graph Signal Processing Meets Mamba2: Adaptive Filter Bank via Delta Modulation"
+        authors:
+          - Yehjin Shin*
+          - Seojin Kim*
+          - Noseong Park
+        publisher: "ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models"
+        releaseDate: 2025-01-01
+        url: https://openreview.net/forum?id=cH0OxrmfdL
+        summary: Reinterprets Mamba2 as an adaptive filter bank and proposes a hierarchical framework inspired by graph signal processing.
+      - title: "Addressing Prediction Delays in Time Series Forecasting: A Continuous GRU Approach with Derivative Regularization"
+        authors:
+          - Sheo Yon Jhin
+          - Seojin Kim
+          - Noseong Park
+        publisher: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024)"
+        releaseDate: 2024-01-01
+        url: https://doi.org/10.1145/3637528.3671969
+        summary: Introduces a continuous-time GRU (neural ODE) with time-derivative regularization to mitigate prediction delay in forecasting.
       - title: Long-term Time Series Forecasting based on Decomposition and Neural Ordinary Differential Equations
         authors:
           - Seonkyu Lim*
@@ -111,66 +183,7 @@ cv:
         url: https://doi.ieeecomputersociety.org/10.1109/BigData59044.2023.10386388
         summary: Proposes LTSF-DNODE, combining time-series decomposition with neural ODEs for long-term forecasting, improving over baselines on real-world datasets.
 
-      - title: "Addressing Prediction Delays in Time Series Forecasting: A Continuous GRU Approach with Derivative Regularization"
-        authors:
-          - Sheo Yon Jhin
-          - Seojin Kim
-          - Noseong Park
-        publisher: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024)"
-        releaseDate: 2024-01-01
-        url: https://doi.org/10.1145/3637528.3671969
-        summary: Introduces a continuous-time GRU (neural ODE) with time-derivative regularization to mitigate prediction delay in forecasting.
 
-      - title: Mitigating Over-Smoothing in Mamba2 via Spectral Domain Analysis
-        authors:
-          - Seojin Kim*
-          - Yehjin Shin*  
-          - Noseong Park
-        publisher: "ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models"
-        releaseDate: 2025-01-01
-        url: https://openreview.net/forum?id=r08kqzrito
-        summary: Analyzes Mamba2 in the spectral domain and proposes a high-frequency enhancement method to reduce over-smoothing.
-
-      - title: "Graph Signal Processing Meets Mamba2: Adaptive Filter Bank via Delta Modulation"
-        authors:
-          - Yehjin Shin*
-          - Seojin Kim*
-          - Noseong Park
-        publisher: "ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models"
-        releaseDate: 2025-01-01
-        url: https://openreview.net/forum?id=cH0OxrmfdL
-        summary: Reinterprets Mamba2 as an adaptive filter bank and proposes a hierarchical framework inspired by graph signal processing.
-
-      - title: "TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation"
-        authors:
-          - Yehjin Shin
-          - Jeongwhan Choi
-          - Seojin Kim
-          - Noseong Park
-        publisher: "Conference on Neural Information Processing Systems (NeurIPS 2025)"
-        releaseDate: 2025-10-01
-        url: https://arxiv.org/abs/2510.25259
-        summary: Proposes time-variant convolutional filters for sequential recommendation to better capture temporal interactions while improving efficiency.
-
-      - title: "Graph Signal Processing Meets Mamba2: Adaptive Filter Bank via Delta Modulation"
-        authors:
-          - Yehjin Shin*
-          - Seojin Kim*
-          - Noseong Park
-        publisher: "The Fourteenth International Conference on Learning Representations (ICLR 2026)"
-        releaseDate: 2026-01-26
-        url: https://openreview.net/forum?id=w0XhHcXfKv
-        summary: Reinterprets Mamba2 as an adaptive filter bank and proposes a hierarchical framework inspired by graph signal processing.
-      
-      - title: "Q-Delta: Beyond Key-Value Associative State Evolution"
-        authors:
-          - Sumin Park
-          - Seojin Kim
-          - Noseong Park
-        publisher: "The 43rd International Conference on Machine Learning (ICML 2026)"
-        releaseDate: 2026-05-01
-        url: https://arxiv.org/abs/2606.08804
-        summary: A query-aware delta rule that integrates mixed key-query prediction errors into state evolution, enabling jointly corrective dynamics.
     # Skills:
     #   - name: Physics
     #     level: Master

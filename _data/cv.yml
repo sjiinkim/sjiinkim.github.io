@@ -54,7 +54,7 @@ cv:
         position: Research Intern
         location: Beijing, China
         start_date: 2026-04
-        # end_date: 2026-02-01
+        end_date: 2026-09
         summary: Research Intern at MSRA Network Infrastructure Group, advised by Wenxue Cheng.
         highlights:
           - Agentic AI for network diagnosis
